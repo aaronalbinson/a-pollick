@@ -42,6 +42,7 @@ const TemplateWrapper = ({ children }) => (
               <div className="top">
                 <Link to="/">
                   <img
+                    className="logo"
                     src={logo}
                     alt="Tunnel Ridge Outlook"
                     style={{ width: "300px" }}
